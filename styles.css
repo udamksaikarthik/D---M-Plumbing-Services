@@ -578,6 +578,10 @@ ul { list-style: none; padding: 0; margin: 0; }
   font-style: normal;
   font-size: 0.6em;
 }
+@media (max-width: 720px) {
+  .marquee { display: none; }
+}
+
 @-webkit-keyframes marquee {
   from { -webkit-transform: translateX(0); transform: translateX(0); }
   to { -webkit-transform: translateX(-50%); transform: translateX(-50%); }
